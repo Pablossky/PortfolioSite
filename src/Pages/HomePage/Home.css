@@ -1,0 +1,10 @@
+.headHome h1 {
+    text-align: center;
+    
+}
+
+.react-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

@@ -1,0 +1,12 @@
+.galery-masonry { 
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+    .galery-masonry { margin-top: 24px; }
+}
+
+@media only screen and (max-width: 768px) {
+    .galery-masonry { margin-top: 12px; }
+}

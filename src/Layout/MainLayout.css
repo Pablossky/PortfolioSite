@@ -1,0 +1,12 @@
+.navbar-gradient {
+background: #7829D0;
+background: linear-gradient(90deg, #7829D0 0%, #3A82FC 100%);
+}
+
+.navbar a {
+    color: #e5e7eb;
+}
+
+ul.branding {
+    font-size: 25px;
+}
