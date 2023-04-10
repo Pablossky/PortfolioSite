@@ -1,11 +1,11 @@
 .headMusic h1 {
     text-align: center;
+    padding-top: 2%; 
 }
 
 .react-player {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    scale: 1;
-    padding-top: 2%; /* Player ratio: 100 / (1280 / 720) */
+    scale: 1;/* Player ratio: 100 / (1280 / 720) */
   }

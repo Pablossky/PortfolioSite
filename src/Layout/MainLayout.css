@@ -1,6 +1,6 @@
 .navbar-gradient {
-background: #7829D0;
-background: linear-gradient(90deg, #7829D0 0%, #3A82FC 100%);
+background: #A6535A;
+background: linear-gradient(90deg, #A6535A 0%, #591E29 100%);
 }
 
 .navbar a {
@@ -8,5 +8,9 @@ background: linear-gradient(90deg, #7829D0 0%, #3A82FC 100%);
 }
 
 ul.branding {
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.background {
+    color: #A6535A
 }

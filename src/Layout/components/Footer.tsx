@@ -3,6 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBandcamp, faInstagram, faSoundcloud, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import Container from 'react-bootstrap/Container';
 
+const divElement = document.querySelector('div');
+if (divElement) {
+  divElement.style.backgroundColor = '#D9ADAD';
+}
+
 export const Footer = () => {
     const getYear = () => {
         let baseYear = 2023;
