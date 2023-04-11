@@ -1,16 +1,18 @@
 .navbar-gradient {
-background: #A6535A;
-background: linear-gradient(90deg, #A6535A 0%, #591E29 100%);
+background: #F26D85;
+background: linear-gradient(90deg, #A6754B 0%, #734924 100%);
 }
 
 .navbar a {
     color: #e5e7eb;
+    font-family: 'roboto';
 }
 
 ul.branding {
     font-size: 30px;
+    font-family: 'roboto';
 }
 
 .background {
-    color: #A6535A
+    color: #F2F2F2
 }

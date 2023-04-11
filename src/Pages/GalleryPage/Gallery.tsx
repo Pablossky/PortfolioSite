@@ -21,6 +21,15 @@ export const GalleryPage = () => {
     ];
 
     return <>
+        <Container className="headGallery">
+            <h1>Hi from Gallery!</h1>
+            <article className="article">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit illo molestias iure eos enim ratione, eius unde sint iusto, harum sunt odio velit tenetur magni nisi maxime corporis? Vero, cupiditate.
+                Vitae, aliquid facilis laudantium repellat fugit rem saepe minus illum omnis ipsam doloremque modi voluptatem nihil ut fugiat quos perferendis fuga. Molestias quos aspernatur at sit dolorum soluta ullam harum!
+                </p>
+            </article>
+        </Container>
+
         <Container>
         <Masonry
             className='galery-masonry'

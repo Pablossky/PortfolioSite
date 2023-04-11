@@ -1,11 +1,29 @@
-.headMusic h1 {
-    text-align: center;
-    padding-top: 2%; 
-}
-
-.react-player {
+.react-player-cointainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     scale: 1;/* Player ratio: 100 / (1280 / 720) */
-  }
+}
+
+.react-player {
+    padding: 20px;
+}
+
+.headMusic .article {
+    display: flex;
+    flex-direction: row;
+    text-justify:distribute-all-lines
+}
+
+.headMusic h1 {
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    color:#401F0C;
+    font-family: 'roboto';
+}
+
+.headMusic .article p {
+    color: #401F0C;
+    font-family: 'roboto';
+    text-align: justify;
+}

@@ -1,12 +1,7 @@
 import { Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBandcamp, faInstagram, faSoundcloud, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faArtstation, faBandcamp, faGithub, faInstagram, faSoundcloud, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import Container from 'react-bootstrap/Container';
-
-const divElement = document.querySelector('div');
-if (divElement) {
-  divElement.style.backgroundColor = '#D9ADAD';
-}
 
 export const Footer = () => {
     const getYear = () => {
@@ -25,6 +20,8 @@ export const Footer = () => {
                     <li className="ms-3"><a className="text-muted" href="https://www.instagram.com/pablosskys/" target="_blank"><FontAwesomeIcon icon={ faInstagram } /></a></li>
                     <li className="ms-3"><a className="text-muted" href="https://soundcloud.com/pablossky" target="_blank"><FontAwesomeIcon icon={ faSoundcloud }/></a></li>
                     <li className="ms-3"><a className="text-muted" href="https://pablossky.bandcamp.com/" target="_blank"><FontAwesomeIcon icon={ faBandcamp }/></a></li>
+                    <li className="ms-3"><a className="text-muted" href="https://www.artstation.com/pablossky" target="_blank"><FontAwesomeIcon icon={ faArtstation }/></a></li>
+                    <li className="ms-3"><a className="text-muted" href="https://www.github.com/pablossky" target="_blank"><FontAwesomeIcon icon={ faGithub }/></a></li>
                 </ul>
             </div>
         </Container>
