@@ -43,6 +43,7 @@
     text-decoration: none;
 }
 
+
  .tag {
     padding-top:25px;
     height: 80px; 
@@ -63,7 +64,7 @@
 }
 
 .tag.techno {
-    background-image: url("../../Assets/img/articon.png");
+    background-image: url("../../Assets/img/iticon.png");
 }
 
 .tag.art {
@@ -77,4 +78,10 @@
 
 .gridAbout div:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1399px) {
+    .tag.empty {
+        display:none
+     }
 }
