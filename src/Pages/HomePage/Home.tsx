@@ -6,10 +6,10 @@ import './Home.css'
 export const HomePage = () => {
 
     const items:{url:string, alt:string, bgpos?:string}[] = [
-        {url:"https://cdnb.artstation.com/p/assets/images/images/061/504/475/large/pablossky-fg2.jpg?1680965487", alt:"Music Production", bgpos:"center"},
-        {url:"https://cdnb.artstation.com/p/assets/images/images/061/511/853/large/pablossky-bez-nazwy.jpg?1680981186", alt:"Arts", bgpos:"top"},
+        {url:"https://i.imgur.com/gsNe5Pv.png", alt:"Music Production", bgpos:"center"},
+        {url:"https://i.imgur.com/TGTAiD4.png", alt:"Arts", bgpos:"top"},
         {url:"https://cdnb.artstation.com/p/assets/images/images/061/612/063/large/pablossky-workinprogress.jpg?1681229266", alt:"Blender", bgpos:"center"},
-        {url:"https://photos.google.com/photo/AF1QipM9Nq4NvKeCAny44C06a4kCIVOFPmNKuV-z1FOu", alt:"Coding", bgpos:"center"},
+        {url:"https://i.imgur.com/9xOAumD.png", alt:"Programming", bgpos:"center"},
      ];
      
     return (
@@ -29,7 +29,9 @@ export const HomePage = () => {
             
         </Carousel><Container className="headHome">
         <Container className="textHome">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit illo molestias iure eos enim ratione, eius unde sint iusto, harum sunt odio velit tenetur magni nisi maxime corporis? Vero, cupiditate. Vitae, aliquid facilis laudantium repellat fugit rem saepe minus illum omnis ipsam doloremque modi voluptatem nihil ut fugiat quos perferendis fuga. Molestias quos aspernatur at sit dolorum soluta ullam harum! Ducimus, sapiente ab commodi, aspernatur rerum perspiciatis quis maxime, esse minus soluta non repellendus officia corrupti! Corporis sapiente aut hic consequatur, omnis enim, non nam corrupti officiis fugiat molestiae quam. Nesciunt totam voluptatum illo, odit at sint ipsa labore facilis amet quam eos? Error molestiae, tempora similique voluptatum illum voluptatem, dolorem doloremque, nostrum cumque est tempore consequatur cupiditate eum fugit. Voluptatibus dicta totam consectetur fuga qui modi, id rem ducimus sit labore fugiat natus odit suscipit consequuntur laboriosam doloribus illum quas dolor veritatis asperiores.
+            <p>Hi! I'm Paweł ("Pablossky") and this site was made to introduce myself better. I wanted to have some internet medium where I can freely present everything I want in a way that I like and what I'm doing in free time. Since I work with various media (music, art, coding... etc.) I had to had some space to share it. Keeping these things in mind I created project of my personal site in my mind.</p>
+            <p> When it came to realisation first attempt I made was using JAVA framework Spring with MAVEN (Front-end was just basic HTML code). As I keep progressing with it learning new tools, thought, that I'm overkilling it has crossed my mind. I've started everything from scratch again. This version is written using REACT, JavaScript and TypeScript including HTML and Bootstrap. I like how it works and I'm proud to share it since it's my first "front-end" project.</p>
+            <p>Thank you for visiting. </p>
         </Container>
         </Container></>
     )
