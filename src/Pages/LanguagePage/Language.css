@@ -1,21 +1,38 @@
 .headLanguage h1 {
-    padding-top: 1%; 
-    padding-bottom: 1%; 
+    padding-top: 3%; 
+    padding-bottom: 3%; 
     color:#401F0C;
     font-family: 'roboto';
 }
 
 .headLanguage .article img {
-    float:left;
-    border: 5px solid #401F0C;
-    margin-right: 20px;
-    margin-bottom: 1%;
-    max-width: 250px;
-    max-height: 250px;
+    width: 100%;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
 }
 
-.headLanguage .article p {
+.headLanguage.article p {
+    margin-top: 25px;
     color: #401F0C;
     font-family: 'roboto';
     text-align: justify;
+    font-size: large;
+}
+
+.formatImg  {
+    height: 400px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.formatImg img {
+   position: relative;
+}
+
+
+.headLanguage.article img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
 }
