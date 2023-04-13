@@ -1,5 +1,19 @@
 .galery-masonry { 
     margin-top: 6px;
+    
+}
+
+.galery-masonry img {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.galery-masonry img:hover {
+    overflow: hidden;
+    transform: scale(1.5);
+    z-index: 2;
     cursor: pointer;
 }
 
