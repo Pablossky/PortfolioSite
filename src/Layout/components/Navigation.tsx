@@ -17,7 +17,7 @@ export const Navigation = () => {
                         <Nav className="mr-auto">
 
                         <DropdownButton variant="dark" menuVariant="dark" className="dropdown-item-button" title="About" >
-                            <Dropdown.Item><LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer></Dropdown.Item>
+                            <Dropdown.Item><LinkContainer to="/about"><Nav.Link>About Me</Nav.Link></LinkContainer></Dropdown.Item>
                             <Dropdown.Item><LinkContainer to="/about/musicproduction"><Nav.Link>Music Production</Nav.Link></LinkContainer></Dropdown.Item>
                             <Dropdown.Item><LinkContainer to="/about/graphic"><Nav.Link>Graphic</Nav.Link></LinkContainer></Dropdown.Item>
                             <Dropdown.Item><LinkContainer to="/about/technology"><Nav.Link>Technology</Nav.Link></LinkContainer></Dropdown.Item>

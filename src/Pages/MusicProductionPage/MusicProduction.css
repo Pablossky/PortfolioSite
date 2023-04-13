@@ -6,16 +6,33 @@
 }
 
 .headMusicProd .article img {
-    float:left;
-    border: 5px solid #401F0C;
-    margin-right: 20px;
-    margin-bottom: 1%;
-    max-width: 250px;
-    max-height: 250px;
+    width: 100%;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 .headMusicProd .article p {
+    margin-top: 25px;
     color: #401F0C;
     font-family: 'roboto';
     text-align: justify;
+    font-size: large;
+}
+
+.formatImg  {
+    height: 400px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.formatImg img {
+   position: relative;
+}
+
+
+.headMusicProd .article img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
 }

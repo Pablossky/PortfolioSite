@@ -16,7 +16,7 @@ export const AboutPage = () => {
         <Container className="headAbout">
             <h1>Hi from About!</h1>
               <article className="article">
-                <img  className="left" src="https://cdnb.artstation.com/p/assets/images/images/061/456/197/large/pablossky-av.jpg?1680826790"></img>
+                <img src="https://cdnb.artstation.com/p/assets/images/images/061/456/197/large/pablossky-av.jpg?1680826790"></img>
                 <p>
                 I'm Paweł, as you probably have guessed, a 22 year old robotics and automation engineering student at Silesian University of Technology. Beeing powered by jazz music, decadent literature and cinemtic maasterpieces my mind is filled with ideas, both in and outside of my area of study.
                 </p>
@@ -144,7 +144,7 @@ export const AboutPage = () => {
             </div>
             <div className="col-lg-1 col-sm-6 empty tag"></div>
             <div className="col-lg-1 col-sm-6 empty tag"></div>
-            <div className="col-lg-1 col-sm-6 techno tag">
+            <div className="col-lg-1 col-sm-6 language tag">
               <LinkContainer to="/about/language">
                 <Nav.Link>
                   English
