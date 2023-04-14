@@ -1,25 +1,26 @@
 .headTechno h1 {
-    padding-top: 1%; 
-    padding-bottom: 1%; 
-    color:#401F0C;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #401F0C;
     font-family: 'roboto';
 }
 
 .headTechno .article img {
+    min-height: 400px;
     width: 100%;
     background-size: cover;
     transition: all 0.3s ease-in-out;
-    overflow: hidden;
 }
 
 .headTechno .article p {
+    margin-top: 25px;
     color: #401F0C;
     font-family: 'roboto';
     text-align: justify;
+    font-size: large;
 }
 
 .formatImg  {
-    height: 400px;
     background-size: cover;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
@@ -33,3 +34,11 @@
     transform: scale(1.1);
     overflow: hidden;
 }
+
+@media only screen and (max-width: 900px) {
+.formatImg {
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  left: -30%;
+}}

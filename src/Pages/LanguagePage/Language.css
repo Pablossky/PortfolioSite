@@ -1,18 +1,18 @@
 .headLanguage h1 {
-    padding-top: 3%; 
-    padding-bottom: 3%; 
-    color:#401F0C;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #401F0C;
     font-family: 'roboto';
 }
 
 .headLanguage .article img {
+    min-height: 400px;
     width: 100%;
     background-size: cover;
     transition: all 0.3s ease-in-out;
-    overflow: hidden;
 }
 
-.headLanguage.article p {
+.headLanguage .article p {
     margin-top: 25px;
     color: #401F0C;
     font-family: 'roboto';
@@ -21,7 +21,6 @@
 }
 
 .formatImg  {
-    height: 400px;
     background-size: cover;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
@@ -31,8 +30,15 @@
    position: relative;
 }
 
-
-.headLanguage.article img:hover {
+.headLanguage .article img:hover {
     transform: scale(1.1);
     overflow: hidden;
 }
+
+@media only screen and (max-width: 900px) {
+.formatImg {
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  left: -30%;
+}}
