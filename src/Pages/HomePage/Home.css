@@ -6,12 +6,15 @@
     font-family: 'roboto';
 }
 
-.textHome {
-    margin-top: 25px;
-    color: #401F0C;
-    font-family: 'roboto';
-    text-align: justify;
-    font-size: large;
+.formatImg  {
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    height: 400px;
+}
+
+.headHome p {
+    margin-top: 3% !important;
 }
 
 .slideshow {

@@ -12,18 +12,15 @@
     transition: all 0.3s ease-in-out;
 }
 
-.headTechno .article p {
-    margin-top: 25px;
-    color: #401F0C;
-    font-family: 'roboto';
-    text-align: justify;
-    font-size: large;
+.headTechno p {
+    margin-top: 3% !important;
 }
 
 .formatImg  {
     background-size: cover;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
+    height: 400px;
 }
 
 .formatImg img {

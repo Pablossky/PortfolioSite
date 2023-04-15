@@ -1,6 +1,5 @@
 .galery-masonry { 
     margin-top: 6px;
-    
 }
 
 .galery-masonry img {
@@ -32,14 +31,8 @@
 }
 
 .headGallery h1 {
-    padding-top: 1%; 
-    padding-bottom: 1%; 
-    color:#401F0C;
-    font-family: 'roboto';
-}
-
-.headGallery .article p {
+    padding-top: 3%;
+    padding-bottom: 3%;
     color: #401F0C;
     font-family: 'roboto';
-    text-align: justify;
 }

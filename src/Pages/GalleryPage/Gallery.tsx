@@ -17,15 +17,19 @@ export const GalleryPage = () => {
        {url:"https://cdnb.artstation.com/p/assets/images/images/061/449/859/large/pablossky-sand.jpg?1680809648", alt:""},
        {url:"https://cdna.artstation.com/p/assets/images/images/061/449/814/large/pablossky-ddart1.jpg?1680809585", alt:""},
        {url:"https://cdna.artstation.com/p/assets/images/images/048/238/370/large/pablossky-img-20220409-024427.jpg?1649542779", alt:""},
-       {url:"https://cdnb.artstation.com/p/assets/images/images/061/504/475/large/pablossky-fg2.jpg?1680965487", alt:""}
+       {url:"https://cdnb.artstation.com/p/assets/images/images/061/504/475/large/pablossky-fg2.jpg?1680965487", alt:""},
+       {url:"https://i.imgur.com/VzA023r.png", alt:""},
+       {url:"https://i.imgur.com/TdaWklR.png", alt:""},
+       {url:"https://i.imgur.com/qJdlv6X.png", alt:""},
+       {url:"https://i.imgur.com/2AktXUT.jpg", alt:""},
+       {url:"https://i.imgur.com/VvYaLwt.png", alt:""},
     ];
 
     return <>
         <Container className="headGallery">
-            <h1>Hi from Gallery!</h1>
+            <h1>My arts</h1>
             <article className="article">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit illo molestias iure eos enim ratione, eius unde sint iusto, harum sunt odio velit tenetur magni nisi maxime corporis? Vero, cupiditate.
-                Vitae, aliquid facilis laudantium repellat fugit rem saepe minus illum omnis ipsam doloremque modi voluptatem nihil ut fugiat quos perferendis fuga. Molestias quos aspernatur at sit dolorum soluta ullam harum!
+                <p>I present you some of my works. I mixed up there 3D arts, digital drawings and even ones did with traditional methods.
                 </p>
             </article>
         </Container>

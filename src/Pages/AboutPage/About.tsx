@@ -14,7 +14,7 @@ if (divElement) {
 export const AboutPage = () => {
     return (
         <Container className="headAbout">
-            <h1>Hi from About!</h1>
+            <h1>Something about me.</h1>
               <article className="article">
                 <img src="https://cdnb.artstation.com/p/assets/images/images/061/456/197/large/pablossky-av.jpg?1680826790"></img>
                 <p>

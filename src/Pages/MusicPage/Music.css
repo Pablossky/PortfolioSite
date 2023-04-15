@@ -16,14 +16,15 @@
 }
 
 .headMusic h1 {
-    padding-top: 1%; 
-    padding-bottom: 1%; 
-    color:#401F0C;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #401F0C;
     font-family: 'roboto';
 }
 
-.headMusic .article p {
-    color: #401F0C;
-    font-family: 'roboto';
-    text-align: justify;
+.formatImg  {
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    height: 400px;
 }

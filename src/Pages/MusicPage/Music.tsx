@@ -9,12 +9,7 @@ export const MusicPage = () => {
             <h1>There's some of my tracks.</h1>
 
             <article className="article">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit illo molestias iure eos enim ratione, eius unde sint iusto, harum sunt odio velit tenetur magni nisi maxime corporis? Vero, cupiditate.
-                Vitae, aliquid facilis laudantium repellat fugit rem saepe minus illum omnis ipsam doloremque modi voluptatem nihil ut fugiat quos perferendis fuga. Molestias quos aspernatur at sit dolorum soluta ullam harum!
-                Ducimus, sapiente ab commodi, aspernatur rerum perspiciatis quis maxime, esse minus soluta non repellendus officia corrupti! Corporis sapiente aut hic consequatur, omnis enim, non nam corrupti officiis fugiat molestiae quam.
-                Nesciunt totam voluptatum illo, odit at sint ipsa labore facilis amet quam eos? Error molestiae, tempora similique voluptatum illum voluptatem, dolorem doloremque, nostrum cumque est tempore consequatur cupiditate eum fugit.
-                Voluptatibus dicta totam consectetur fuga qui modi, id rem ducimus sit labore fugiat natus odit suscipit consequuntur laboriosam doloribus illum quas dolor veritatis asperiores. Harum laudantium sed laboriosam soluta doloribus!
-                Quo ipsam odio sint veritatis inventore, sed eveniet, et officia laudantium earum, animi quisquam dolorum! Officia earum accusantium sit totam quibusdam, omnis excepturi quia illo labore minus laborum deserunt explicabo?
+                <p>Welcome to my evolving musical world of, where my different ideas and experiments meet in a constantly evolving creative process. I'm very passionate about music and I'm trying my best to get better at it every time I create. I want to share with you some of my tracks. From beginning to my recent works I've changed a lot not only in knowledge but also in picking genres or inspirations. I'm exploring huge world of music trying to find my own places in it. I humbly invite you to follow my growth and development as a musician, and to join me on a journey of musical discovery or just simple chat about it. With a range of styles and influences, my music is always evolving and changing, not always in a good way, but in art nothing is straightforward. Beginnings were quite hard. My next step was to upload tracks on Soundcloud.
                 </p>
             </article>
 
@@ -40,12 +35,7 @@ export const MusicPage = () => {
             </Container>
 
             <article className="article">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit illo molestias iure eos enim ratione, eius unde sint iusto, harum sunt odio velit tenetur magni nisi maxime corporis? Vero, cupiditate.
-                Vitae, aliquid facilis laudantium repellat fugit rem saepe minus illum omnis ipsam doloremque modi voluptatem nihil ut fugiat quos perferendis fuga. Molestias quos aspernatur at sit dolorum soluta ullam harum!
-                Ducimus, sapiente ab commodi, aspernatur rerum perspiciatis quis maxime, esse minus soluta non repellendus officia corrupti! Corporis sapiente aut hic consequatur, omnis enim, non nam corrupti officiis fugiat molestiae quam.
-                Nesciunt totam voluptatum illo, odit at sint ipsa labore facilis amet quam eos? Error molestiae, tempora similique voluptatum illum voluptatem, dolorem doloremque, nostrum cumque est tempore consequatur cupiditate eum fugit.
-                Voluptatibus dicta totam consectetur fuga qui modi, id rem ducimus sit labore fugiat natus odit suscipit consequuntur laboriosam doloribus illum quas dolor veritatis asperiores. Harum laudantium sed laboriosam soluta doloribus!
-                Quo ipsam odio sint veritatis inventore, sed eveniet, et officia laudantium earum, animi quisquam dolorum! Officia earum accusantium sit totam quibusdam, omnis excepturi quia illo labore minus laborum deserunt explicabo?
+                <p> I believe that music should be a source of fun and excitement, and I try to influence every composition with a sense of joy and playfulness. I want be to able to create sounds that will inspire others to express their feelings and thoughts. From the upbeat rhythms of jazz-inspired pieces to the electrifying sounds of synthesisers and electronic basses, I will let you loose and have fun with my music. Behind all of jokes and funny aspects I treat producing seriously. I won't give up doing this even if I'll be running out of the time in the future.
                 </p>
             </article>
 

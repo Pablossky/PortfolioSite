@@ -12,22 +12,21 @@
     transition: all 0.3s ease-in-out;
 }
 
-.headMusicProd .article p {
-    margin-top: 25px;
-    color: #401F0C;
-    font-family: 'roboto';
-    text-align: justify;
-    font-size: large;
-}
-
 .formatImg  {
     background-size: cover;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
 }
 
-.formatImg img {
-   position: relative;
+.headMusicProd p {
+    margin-top: 3% !important;
+}
+
+.formatImg  {
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    height: 400px;
 }
 
 .headMusicProd .article img:hover {

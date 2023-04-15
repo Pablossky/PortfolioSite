@@ -12,12 +12,8 @@
     transition: all 0.3s ease-in-out;
 }
 
-.headLanguage .article p {
-    margin-top: 25px;
-    color: #401F0C;
-    font-family: 'roboto';
-    text-align: justify;
-    font-size: large;
+.headLanguage p {
+    margin-top: 3% !important;
 }
 
 .formatImg  {
@@ -35,7 +31,7 @@
     overflow: hidden;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
 .formatImg {
   height: 200px;
   width: 100%;
