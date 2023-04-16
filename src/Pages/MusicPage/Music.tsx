@@ -9,7 +9,7 @@ export const MusicPage = () => {
             <h1>There's some of my tracks.</h1>
 
             <article className="article">
-                <p>Welcome to my evolving musical world of, where my different ideas and experiments meet in a constantly evolving creative process. I'm very passionate about music and I'm trying my best to get better at it every time I create. I want to share with you some of my tracks. From beginning to my recent works I've changed a lot not only in knowledge but also in picking genres or inspirations. I'm exploring huge world of music trying to find my own places in it. I humbly invite you to follow my growth and development as a musician, and to join me on a journey of musical discovery or just simple chat about it. With a range of styles and influences, my music is always evolving and changing, not always in a good way, but in art nothing is straightforward. Beginnings were quite hard. My next step was to upload tracks on Soundcloud.
+                <p>Welcome to my evolving musical world of, where my different ideas and experiments meet in a constantly evolving creative process. I'm very passionate about music, and I'm trying my best to get better at it every time I create. I want to share with you some of my tracks. From beginning to my recent works I've changed a lot not only in knowledge but also in picking genres or inspirations. I'm exploring the huge world of music, trying to find my own places in it. I humbly invite you to follow my growth and development as a musician, and to join me on a journey of musical discovery or just a simple chat about it. With a range of styles and influences, my music is always evolving and changing, not always in a good way, but in art nothing is straightforward. Beginnings were quite hard. My next step was to upload tracks on social media.
                 </p>
             </article>
 
@@ -35,7 +35,7 @@ export const MusicPage = () => {
             </Container>
 
             <article className="article">
-                <p> I believe that music should be a source of fun and excitement, and I try to influence every composition with a sense of joy and playfulness. I want be to able to create sounds that will inspire others to express their feelings and thoughts. From the upbeat rhythms of jazz-inspired pieces to the electrifying sounds of synthesisers and electronic basses, I will let you loose and have fun with my music. Behind all of jokes and funny aspects I treat producing seriously. I won't give up doing this even if I'll be running out of the time in the future.
+                <p> I believe that music should be a source of fun and excitement, and I try to influence every composition with a sense of joy and playfulness. I want to be able to create sounds that will inspire others to express their feelings and thoughts. From the upbeat rhythms of jazz-inspired pieces to the electrifying sounds of synthesizers and electronic basses, I will let you loose and have fun with my music. Behind all the jokes and funny aspects, I treat producing seriously. I won't give up doing this, even if I'll be running out of the time in the future.
                 </p>
             </article>
 

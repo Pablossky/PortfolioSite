@@ -25,6 +25,10 @@ export const GalleryPage = () => {
        {url:"https://i.imgur.com/TdaWklR.png", alt:"", tag:"Blender Digital"},
        {url:"https://i.imgur.com/qJdlv6X.png", alt:"", tag:"Blender Digital"},
        {url:"https://i.imgur.com/2AktXUT.jpg", alt:"", tag:"Traditional"},
+       {url:"https://i.imgur.com/wincdVn.jpg", alt:"", tag:"Traditional"},
+       {url:"https://i.imgur.com/8TbBAJB.jpg", alt:"", tag:"Traditional"},
+       {url:"https://i.imgur.com/Ju2UZlT.jpg", alt:"", tag:"Traditional"},
+       {url:"https://i.imgur.com/ECmq5DB.jpg", alt:"", tag:"Traditional"},
        {url:"https://i.imgur.com/VvYaLwt.png", alt:"", tag:"Digital"},
     ];
 
