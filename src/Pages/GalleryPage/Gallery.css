@@ -9,11 +9,19 @@
     z-index: 1;
 }
 
+@keyframes delayZoom {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.5);}
+  }
+
 .galery-masonry img:hover {
     overflow: hidden;
-    transform: scale(1.5);
     z-index: 2;
     cursor: pointer;
+    animation-name: delayZoom;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
 }
 
 @media only screen and (max-width: 640px) {
@@ -35,4 +43,18 @@
     padding-bottom: 3%;
     color: #401F0C;
     font-family: 'roboto';
+}
+
+.galleryButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery .btn-check:checked + .btn {
+    background-color: #A6754B !important;
+}
+
+.gallery .btn-check + .btn {
+    background-color: #734924 !important;
+    border-color: #734924 !important;
 }
