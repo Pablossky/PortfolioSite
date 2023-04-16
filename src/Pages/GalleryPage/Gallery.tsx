@@ -34,6 +34,7 @@ export const GalleryPage = () => {
 
     const [filteredItems, setFilteredItems]= useState(items);
     const [radioValue, setRadioValue] = useState('All');
+    const shuffledItems = shuffleArray(filteredItems);
 
     const radios = [
         { name: 'All', value: 'All' },
@@ -41,6 +42,14 @@ export const GalleryPage = () => {
         { name: 'Digital Art', value: 'Digital' },
         { name: 'Traditional', value: 'Traditional' },
       ];
+
+    function shuffleArray<T>(array: T[]): T[] {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+      return array;
+    }
 
     function filterList(value:string) {
         setRadioValue (value);
@@ -86,7 +95,7 @@ export const GalleryPage = () => {
             </div>
         <Masonry
             className='galery-masonry'
-            items={filteredItems}
+            items={shuffledItems}
             config={{
                 columns: [1, 2, 3],
                 gap: [24, 12, 6],
