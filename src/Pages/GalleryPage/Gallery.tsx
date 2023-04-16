@@ -68,7 +68,7 @@ export const GalleryPage = () => {
         <Container className="headGallery">
             <h1>My arts</h1>
             <article className="article">
-                <p>I present you some of my works. I mixed up there 3D arts, digital drawings and even ones did with traditional methods.
+                <p>I present you some of my works. I mixed up there 3D arts, digital drawings and even ones created with traditional methods.
                 </p>
             </article>
         </Container>
