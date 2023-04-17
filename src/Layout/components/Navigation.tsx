@@ -9,7 +9,7 @@ export const Navigation = () => {
         <div className="navbar-gradient">
             <Container>
                 <Navbar expand="lg">
-                    <LinkContainer to="/PortfolioSite">
+                    <LinkContainer to="/PortfolioSite/#">
                         <Navbar.Brand>Pablossky</Navbar.Brand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
