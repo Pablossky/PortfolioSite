@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { AboutPage, GalleryPage, HomePage, MusicPage, GraphicPage, LanguagePage, MusicProductionPage, TechnologyPage, NotFound } from "./Pages";
 import { MainLayout } from "./Layout";
 
@@ -8,7 +8,7 @@ import "./main.css";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
           <Route path="/" element={<MainLayout/>}>
           <Route path="/PortfolioSite" element={<HomePage/>} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="*" element={<NotFound/>} />
         </Route>
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
