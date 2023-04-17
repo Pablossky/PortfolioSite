@@ -5,7 +5,7 @@ export const NotFound = () => {
     const navigate = useNavigate();
     useEffect(() => {
         setTimeout(() => {
-            navigate("/")
+            navigate("/PortfolioSite")
         }, 5000)
     }, []);
 
