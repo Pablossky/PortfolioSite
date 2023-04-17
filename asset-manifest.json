@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/pablossky.github.io/static/css/main.b7afbb51.css",
-    "main.js": "/pablossky.github.io/static/js/main.712d004e.js",
-    "index.html": "/pablossky.github.io/index.html",
-    "main.b7afbb51.css.map": "/pablossky.github.io/static/css/main.b7afbb51.css.map",
-    "main.712d004e.js.map": "/pablossky.github.io/static/js/main.712d004e.js.map"
+    "main.css": "/PortfolioSite/static/css/main.b7afbb51.css",
+    "main.js": "/PortfolioSite/static/js/main.712d004e.js",
+    "index.html": "/PortfolioSite/index.html",
+    "main.b7afbb51.css.map": "/PortfolioSite/static/css/main.b7afbb51.css.map",
+    "main.712d004e.js.map": "/PortfolioSite/static/js/main.712d004e.js.map"
   },
   "entrypoints": [
     "static/css/main.b7afbb51.css",
