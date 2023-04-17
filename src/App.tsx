@@ -11,7 +11,7 @@ function App() {
       <HashRouter>
       <Routes>
           <Route path="/" element={<MainLayout/>}>
-          <Route path="/PortfolioSite" element={<HomePage/>} />
+          <Route path="/PortfolioSite/" element={<HomePage/>} />
           <Route path="/PortfolioSite/about" element={<AboutPage/>} />
           <Route path="/PortfolioSite/music" element={<MusicPage/>} />
           <Route path="/PortfolioSite/gallery" element={<GalleryPage/>} />

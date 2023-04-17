@@ -31,112 +31,112 @@ export const AboutPage = () => {
             
             <div className="gridAbout row">
             <div className="col-lg-1 col-sm-6 music tag" >
-            <LinkContainer to="/about/musicproduction">
+            <LinkContainer to="/PortfolioSite/about/musicproduction">
                 <Nav.Link>
                   FL Studio
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 music tag">
-              <LinkContainer to="/about/musicproduction">
+              <LinkContainer to="/PortfolioSite/about/musicproduction">
                 <Nav.Link>
                   Music Production
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 art tag">
-              <LinkContainer to="/about/graphic">
+              <LinkContainer to="/PortfolioSite/about/graphic">
                 <Nav.Link>
                   Blender
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 art tag">
-              <LinkContainer to="/about/graphic">
+              <LinkContainer to="/PortfolioSite/about/graphic">
                 <Nav.Link>
                   Digital Drawing
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 art tag">
-              <LinkContainer to="/about/graphic">
+              <LinkContainer to="/PortfolioSite/about/graphic">
                 <Nav.Link>
                   Traditional Art
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 art tag">
-              <LinkContainer to="/about/graphic">
+              <LinkContainer to="/PortfolioSite/about/graphic">
                 <Nav.Link>
                   Animations
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 art tag">
-              <LinkContainer to="/about/graphic">
+              <LinkContainer to="/PortfolioSite/about/graphic">
                 <Nav.Link>
                   Video Editing
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   JAVA
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   Git
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   C
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   C++
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   C#
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   HTML
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   React
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   Typescript
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   Matlab
                 </Nav.Link>
@@ -144,41 +144,41 @@ export const AboutPage = () => {
             </div>
             <div className="col-lg-1 col-sm-6 empty tag"></div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   Linux
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 techno tag">
-            <LinkContainer to="/about/technology">
+            <LinkContainer to="/PortfolioSite/about/technology">
                 <Nav.Link>
                   LaTeX
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 language tag">
-              <LinkContainer to="/about/language">
+              <LinkContainer to="/PortfolioSite/about/language">
                 <Nav.Link>
                   English
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 language tag">
-              <LinkContainer to="/about/language">
+              <LinkContainer to="/PortfolioSite/about/language">
                 <Nav.Link>
                   Polish
                 </Nav.Link>
               </LinkContainer></div>
             <div className="col-lg-1 col-sm-6 language tag">
-              <LinkContainer to="/about/language">
+              <LinkContainer to="/PortfolioSite/about/language">
                 <Nav.Link>
                   Italian
                 </Nav.Link>
               </LinkContainer>
             </div>
             <div className="col-lg-1 col-sm-6 language tag">
-              <LinkContainer to="/about/language">
+              <LinkContainer to="/PortfolioSite/about/language">
                 <Nav.Link>
                   Japanese
                 </Nav.Link>
