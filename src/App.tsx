@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import { AboutPage, GalleryPage, HomePage, MusicPage, GraphicPage, LanguagePage, MusicProductionPage, TechnologyPage, NotFound } from "./Pages";
 import { MainLayout } from "./Layout";
 
@@ -8,6 +8,7 @@ import "./main.css";
 function App() {
   return (
     <>
+
       <HashRouter>
       <Routes>
           <Route path="/" element={<MainLayout/>}>
