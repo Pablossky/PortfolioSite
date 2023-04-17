@@ -21,6 +21,7 @@ export const GalleryPage = () => {
        {url:"https://cdna.artstation.com/p/assets/images/images/061/449/814/large/pablossky-ddart1.jpg?1680809585", alt:"", tag:"Digital"},
        {url:"https://cdna.artstation.com/p/assets/images/images/048/238/370/large/pablossky-img-20220409-024427.jpg?1649542779", alt:"", tag:"Blender Digital"},
        {url:"https://cdnb.artstation.com/p/assets/images/images/061/504/475/large/pablossky-fg2.jpg?1680965487", alt:"", tag:"Digital"},
+       {url:"https://cdnb.artstation.com/p/assets/images/images/061/809/893/large/pablossky-jungleriver2.jpg?1681696928", alt:"", tag:"Digital"},
        {url:"https://i.imgur.com/VzA023r.png", alt:"", tag:"Blender Digital"},
        {url:"https://i.imgur.com/TdaWklR.png", alt:"", tag:"Blender Digital"},
        {url:"https://i.imgur.com/qJdlv6X.png", alt:"", tag:"Blender Digital"},

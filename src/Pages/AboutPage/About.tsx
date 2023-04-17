@@ -89,7 +89,21 @@ export const AboutPage = () => {
             <div className="col-lg-1 col-sm-6 techno tag">
             <LinkContainer to="/about/technology">
                 <Nav.Link>
+                  Git
+                </Nav.Link>
+              </LinkContainer>
+            </div>
+            <div className="col-lg-1 col-sm-6 techno tag">
+            <LinkContainer to="/about/technology">
+                <Nav.Link>
                   C
+                </Nav.Link>
+              </LinkContainer>
+            </div>
+            <div className="col-lg-1 col-sm-6 techno tag">
+            <LinkContainer to="/about/technology">
+                <Nav.Link>
+                  C++
                 </Nav.Link>
               </LinkContainer>
             </div>
@@ -128,6 +142,7 @@ export const AboutPage = () => {
                 </Nav.Link>
               </LinkContainer>
             </div>
+            <div className="col-lg-1 col-sm-6 empty tag"></div>
             <div className="col-lg-1 col-sm-6 techno tag">
             <LinkContainer to="/about/technology">
                 <Nav.Link>
@@ -142,8 +157,6 @@ export const AboutPage = () => {
                 </Nav.Link>
               </LinkContainer>
             </div>
-            <div className="col-lg-1 col-sm-6 empty tag"></div>
-            <div className="col-lg-1 col-sm-6 empty tag"></div>
             <div className="col-lg-1 col-sm-6 language tag">
               <LinkContainer to="/about/language">
                 <Nav.Link>
@@ -171,7 +184,6 @@ export const AboutPage = () => {
                 </Nav.Link>
               </LinkContainer>
             </div>
-            <div className="col-lg-1 col-sm-6 empty tag"></div>
             <div className="col-lg-1 col-sm-6 empty tag"></div>
             </div>
         </Container>
