@@ -12,13 +12,13 @@ function App() {
       <Routes>
           <Route path="/" element={<MainLayout/>}>
           <Route path="/PortfolioSite" element={<HomePage/>} />
-          <Route path="/about" element={<AboutPage/>} />
-          <Route path="/music" element={<MusicPage/>} />
-          <Route path="/gallery" element={<GalleryPage/>} />
-          <Route path="/about/graphic" element={<GraphicPage/>} />
-          <Route path="/about/language" element={<LanguagePage/>} />
-          <Route path="/about/musicproduction" element={<MusicProductionPage/>} />
-          <Route path="/about/technology" element={<TechnologyPage/>} />
+          <Route path="/PortfolioSite/about" element={<AboutPage/>} />
+          <Route path="/PortfolioSite/music" element={<MusicPage/>} />
+          <Route path="/PortfolioSite/gallery" element={<GalleryPage/>} />
+          <Route path="/PortfolioSite/about/graphic" element={<GraphicPage/>} />
+          <Route path="/PortfolioSite/about/language" element={<LanguagePage/>} />
+          <Route path="/PortfolioSite/about/musicproduction" element={<MusicProductionPage/>} />
+          <Route path="/PortfolioSite/about/technology" element={<TechnologyPage/>} />
           <Route path="*" element={<NotFound/>} />
         </Route>
       </Routes>
