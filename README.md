@@ -1,4 +1,4 @@
-# Site requires you to go to any subpage to work fine, beacuse of github pages hosting.
+# Site requires you to go to any subpage to work fine, because of github pages hosting.
 
 # Getting Started with Create React App
 
